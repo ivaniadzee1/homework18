@@ -1,0 +1,18 @@
+@media (width > 1440px){
+    .prices{
+        display: flex;
+        flex-direction: row;
+    }
+    .box2{
+        width: 350px;
+        height: 500px;
+        flex-shrink: 0;
+        padding-top: 54px;
+        margin-top: 33px;
+    }
+    .container{
+        background-image: url(./image/right.svg) , url(./image/left.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 0 , 0% 100%;
+    }
+}
